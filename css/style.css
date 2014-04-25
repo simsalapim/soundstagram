@@ -1,0 +1,98 @@
+body {
+  font-family: 'Raleway';   
+ /* background-color: #f2f0f0;*/
+ padding-top: 10px;
+}
+a:link {color:#000000;}      /* unvisited link */
+a:visited {color:#000000;}  /* visited link */
+a:hover {color:#000000;}  /* mouse over link */
+a:active {color:#000000;}  /* selected link */
+
+a.dotted:link {color:#000000;}      /* unvisited link */
+a.dotted:visited {color:#000000;}  /* visited link */
+a.dotted:hover {color:#000000;text-decoration: none; border:2px dotted black;}  /* mouse over link */
+a.dotted:active {color:#000000;}  /* selected link */
+
+
+/* Custom container */
+.container-narrow {
+  margin: 0 auto;
+  max-width: 900px;
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+.span2{
+  text-align: center;
+
+}
+
+.images{
+  padding-left: 200px;
+  padding-right: 200px;
+      padding-top: 20px;
+
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  margin: 60px 0;
+  text-align: center;
+}
+.jumbotron h1 {
+  font-size: 72px;
+  line-height: 1;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+.pageTitle{
+  padding-left: 20px; 
+  padding-right: 20px;
+
+}
+.btn {
+  margin-bottom: 15px;
+}
+
+#jquery-powered {
+  display: none;
+}
+.button{
+  height: 30px;
+  display:inline;
+  padding-left: 10px; 
+  padding-right: 10px;
+}
+.button:hover{
+  padding-left: 8px; 
+  padding-right: 8px;
+
+}
+
+#thumbnailImages img:hover{
+  -moz-transform:scale(1.1); 
+  -webkit-transform:scale(1.1);
+  -o-transform:scale(1.1);
+}
+
+.pageInfo{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+@media (max-width: 480px) {
+    .images {
+      padding-left:10px;
+      padding-right:10px;
+      vertical-align: middle
+
+    }
+    .pageTitle{
+      font-size: 30px;
+}
+
+}
